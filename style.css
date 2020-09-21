@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: rebeccapurple;
+}
+
+h4 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
