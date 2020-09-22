@@ -2,11 +2,6 @@ body{
     background-color: black;
 }
 
-.title {
-    color: red;
-    text-align: center;
-}
-
 p {
     color: rebeccapurple;
 }
@@ -16,6 +11,48 @@ h4 {
     text-align: center;
 }
 
+.title {
+    color: red;
+    text-align: center;
+}
+
 .red {
     color: red;
+    text-align: center;
+}
+
+.about-us {
+    margin-left: 250px;
+}
+
+#LOL:link {
+    color: red;
+}
+
+#LOL:visited {
+    color : rebeccapurple;
+}
+
+#CSGO:link {
+    color: red;
+}
+
+#CSGO:visited {
+    color: rebeccapurple;
+}
+
+#OW:link {
+    color: red;
+}
+
+#OW:visited {
+    color: rebeccapurple;
+}
+
+#Valorant:link {
+    color: red;
+}
+
+#Valorant:visited {
+    color: rebeccapurple;
 }
