@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Project: SYN</title>
         <link rel="stylesheet" type="text/css" href="css files/style.css">
-        <!--<link rel="icon" href="SYN.ico" type="image/x-icon"/> -->
+        <link rel="icon" type="image/png" href="Synister_Favicon-02.png" >
     </head>
     <body>
         
@@ -16,10 +16,13 @@
             <h1 class="title">Welcome to <b><big>SYNISTER!</big></b></h1>
             <hr/>
             <nav style="text-align: center;">
-                <td><a href="LOL.html" id="LOL">League of Legends</a> </td>
-                <td><a href="csgo.html" id="CSGO">CSGO</a> </td>
-                <td><a href="overwatch.html" id="OW">Overwatch</a></td>
-                <td><a href="valorant.html" id="Valorant">Valorant</a></td>
+                <td><a href="LOL.html" id="LOL"><big><big>League of Legends</big></big></a> </td>
+                <td class="Black-Space">Synister Synister</td>
+                <td><a href="csgo.html" id="CSGO"><big><big>CSGO</big></big></a> </td>
+                <td class="Black-Space"><big>Synister Synister</big></td>
+                <td><a href="overwatch.html" id="OW"><big><big>Overwatch</big></big></a></td>
+                <td class="Black-Space">Synister Synister</td>
+                <td><a href="valorant.html" id="Valorant"><big><big>Valorant</big></big></a></td>
             </nav>
         </header>
 
@@ -45,9 +48,25 @@
             <span><h4> <a href="" >Discord</a></h4></span>
 
             <span class="red">Enter Email</span>
-            <form>
-                <input type="email" />
-                <input type="submit" />
+
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <div class="row">
+                        <label class="required" for="name">Your name:</label><br />
+                        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                        <span id="name_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                        <label class="required" for="email">Your email:</label><br />
+                        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                        <span id="email_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                        <label class="required" for="message">Your message:</label><br />
+                        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                        <span id="message_validation" class="error_message"></span>
+                    </div>
+                        
+                    <input id="submit_button" type="submit" value="Send email" />
             </form>
             
 
